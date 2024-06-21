@@ -29,19 +29,6 @@ A step by step series of examples that tell you how to get a development environ
    ```
    ./target/release/cli-calculator
    ```
-
-=======
-1. Clone the repository:
-   git clone https://github.com/inode-001/simple_rust_calculator.git
-   cd cli_calculator
-
-2. Build the project:
-   cargo build
-
-# Running the Calculator
-  To run the calculator, use the following command:
-        cargo run
-
 # Usage
 
 1. Enter the first number.
@@ -85,23 +72,7 @@ q
 Quitting...
 
 
-# Project Structure
-
-
-cli_calculator/
-├── Cargo.lock
-├── Cargo.toml
-└── src
-    └── main.rs
 
 - `Cargo.toml`: Contains the project metadata and dependencies.
 - `src/main.rs`: The main program file containing the implementation of the  calculator.
 - src/lib.rs : The library file of the calculator contains code required by main.rs
-
-
-
-## Acknowledgments
-
-- Thanks to the Rust community for their helpful documentation and resources.
-
->>>>>>> 0457690542b0683452cfd977b5aa5ce005ce307a
