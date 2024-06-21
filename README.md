@@ -37,48 +37,6 @@ A step by step series of examples that tell you how to get a development environ
 4. The result will be displayed, and you can continue to perform more calculations or quit.
 
 
-
-<<<<<<< HEAD
-Enter first number:
-10
-Enter second number:
-5
-Enter operator (+, -, *, /) or 'q' to quit:
-+
-The result is: 15
-
-Enter first number:
-20
-Enter second number:
-4
-Enter operator (+, -, *, /) or 'q' to quit:
-/
-The result is: 5
-
-Enter first number:
-8
-Enter second number:
-0
-Enter operator (+, -, *, /) or 'q' to quit:
-/
-Error: Division by zero
-
-Enter first number:
-5
-Enter second number:
-5
-Enter operator (+, -, *, /) or 'q' to quit:
-q
-Quitting...
-
-
-
 - `Cargo.toml`: Contains the project metadata and dependencies.
 - `src/main.rs`: The main program file containing the implementation of the  calculator.
-- src/lib.rs : The library file of the calculator contains code required by main.rs
-=======
-
-- `Cargo.toml`: Contains the project metadata and dependencies.
-- `src/main.rs`: The main program file containing the implementation of the  calculator.
--  `src/lib.rs` : The library file of the calculator contains code required by main.rs
->>>>>>> dd5181006447909a1dbc97e92f53b15de924fd67
+- `src/lib.rs` : The library file of the calculator contains code required by main.rs
