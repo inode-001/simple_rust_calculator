@@ -27,7 +27,7 @@ A step by step series of examples that tell you how to get a development environ
    ```
 3. Run the calculator
    ```
-   ./target/release/cli-calculator
+   ./target/release/calculator_simple
    ```
 # Usage
 
