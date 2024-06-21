@@ -23,12 +23,10 @@ CLI Calculator
 
 2. Build the project:
    cargo build
-   ```
 
 # Running the Calculator
-
-To run the calculator, use the following command:
-cargo run
+  To run the calculator, use the following command:
+        cargo run
 
 # Usage
 
@@ -71,17 +69,16 @@ Enter second number:
 Enter operator (+, -, *, /) or 'q' to quit:
 q
 Quitting...
-```
+
 
 # Project Structure
 
-```
+
 cli_calculator/
 ├── Cargo.lock
 ├── Cargo.toml
 └── src
     └── main.rs
-```
 
 - `Cargo.toml`: Contains the project metadata and dependencies.
 - `src/main.rs`: The main program file containing the implementation of the  calculator.
