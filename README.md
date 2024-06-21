@@ -27,7 +27,7 @@ A step by step series of examples that tell you how to get a development environ
    ```
 3. Run the calculator
    ```
-   ./target/release/cli-calculator
+   ./target/release/calculator_simple
    ```
 # Usage
 
@@ -36,9 +36,9 @@ A step by step series of examples that tell you how to get a development environ
 3. Enter the operator (`+`, `-`, `*`, `/`) or `q` to quit.
 4. The result will be displayed, and you can continue to perform more calculations or quit.
 
-# Example Interaction
 
 
+<<<<<<< HEAD
 Enter first number:
 10
 Enter second number:
@@ -76,3 +76,9 @@ Quitting...
 - `Cargo.toml`: Contains the project metadata and dependencies.
 - `src/main.rs`: The main program file containing the implementation of the  calculator.
 - src/lib.rs : The library file of the calculator contains code required by main.rs
+=======
+
+- `Cargo.toml`: Contains the project metadata and dependencies.
+- `src/main.rs`: The main program file containing the implementation of the  calculator.
+-  `src/lib.rs` : The library file of the calculator contains code required by main.rs
+>>>>>>> dd5181006447909a1dbc97e92f53b15de924fd67
